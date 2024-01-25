@@ -22,4 +22,5 @@ To install this:
 ```
 git clone https://github.com/MacCygwin/MYnvim "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim}
 ```
+
 <H3,>
