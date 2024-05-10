@@ -83,12 +83,15 @@ return require('packer').startup(function(use)
             keymap = 'SPC f f',
             key_hl = 'Number',
             key_format = ' %s', -- remove default surrounding `[]`
-            action = 'lua print(2)'
+            action = 'lua print(1)'
           },
           {
-            icon = ' ',
+            icon = '󰈞 ',
             desc = 'Find Oldfiles         ',
-            keymap = 'SPC SPC',
+            key = 'o',
+            keymap = 'SPC spc',
+            key_format = ' %s', -- remove default surrounding '[]'
+            action = 'lua print(2)'
           },
           {
             icon = ' ',
