@@ -22,7 +22,4 @@ To install this:
 ```
 git clone https://github.com/MacCygwin/MYnvim
 ```
-```
-mkdir ~/.config/nvim
-```
-Copy contents from MYnvim folder to ~/.config/nvim/
+Run install.sh
